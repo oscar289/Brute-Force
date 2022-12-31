@@ -9,7 +9,12 @@ def brute_force(target, possibilities):
     Returns:
     - The target value if it is found in the list of possibilities, or None if it is not found.
     """
+    for x in possibilities:
+        if x == target:
+            return target  # "The target value if it is found"
+
+    return None  # None if it is not found.
 
 
-
-    return None
+print(brute_force(1, [1, 2, 3, 4, 5, 6, 7]))
+print(brute_force(8, [1, 2, 3, 4, 5, 6, 7]))
