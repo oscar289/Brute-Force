@@ -1,3 +1,5 @@
+# Brute Force
+
 Brute force is a method of solving a problem by trying every possible solution until the correct one is found. It is a simple and straightforward approach, but it may not always be the most efficient way to solve a problem.
 
 Complexity is a measure of how difficult it is to solve a problem. Factors that can influence the complexity of a problem include the length of the target (e.g. a longer target may take longer to find), the character set (e.g. a larger character set may take longer to search through), and other factors such as the number of possible solutions.
@@ -6,9 +8,9 @@ Examples:
 
 Target: "abc"
 
-Length: 3
+```Length: 3
 Character set: 26 lowercase letters
-Average time to find: Very fast (less than a second)
+Average time to find: Very fast (less than a second)```
 
 Target: "abc123"
 
