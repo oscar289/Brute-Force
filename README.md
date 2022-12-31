@@ -8,9 +8,11 @@ Examples:
 
 Target: "abc"
 
-```Length: 3
+```
+Length: 3
 Character set: 26 lowercase letters
-Average time to find: Very fast (less than a second)```
+Average time to find: Very fast (less than a second)
+```
 
 Target: "abc123"
 
