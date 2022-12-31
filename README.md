@@ -16,27 +16,35 @@ Average time to find: Very fast (less than a second)
 
 Target: "abc123"
 
+```
 Length: 6
 Character set: 26 lowercase letters + 10 digits
 Average time to find: Fast (less than a minute)
+```
 
 Target: "abcdefghijklmnopqrstuvwxyz1234567890"
 
+```
 Length: 36
 Character set: 26 lowercase letters + 10 digits
 Average time to find: Relatively fast (less than an hour)
+```
 
 Target: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
+```
 Length: 62
 Character set: 52 uppercase and lowercase letters + 10 digits
 Average time to find: Moderate (a few hours)
+```
 
 Target: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
 
+```
 Length: 94
 Character set: 52 uppercase and lowercase letters + 10 digits + 32 special characters
 Average time to find: Long (a few days)
+```
 
 Keep in mind that these are just rough estimates and the actual time required to find the target will depend on the specific hardware and software being used. Also, these estimates assume that the brute force algorithm is implemented optimally and that no other more efficient algorithms are available to solve the problem.
 
