@@ -9,7 +9,7 @@ def brute_force(target, possibilities):
     Returns:
     - The target value if it is found in the list of possibilities, or None if it is not found.
     """
-    # write the body here
+
 
 
     return None
